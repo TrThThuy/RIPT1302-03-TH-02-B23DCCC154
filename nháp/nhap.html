@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Visualization Charts</title>
+    <link rel="stylesheet" href="nhap.css">
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h2>Scatter Plot</h2>
+        <p>Là biểu đồ thường được sử dụng khi cần quan sát mối quan hệ giữa hai biến. Đây được xem là biểu đồ khá hữu ích khi nó nhanh chóng xác định mối tương quan tiềm năng giữa các điểm dữ liệu. Biểu đồ phân tán thường được sử dụng để thể hiện các mối quan hệ nguyên nhân - kết quả. Mối tương quan này được biểu diễn dưới dạng các dấu chấm tròn đại diện cho 2 biến, với một biến phụ thuộc chạy cố định trên trục tung và một biến độc lập chạy cố định dựa vào trục hoành. Có nhiều loại tương quan khác nhau như: dương (các giá trị tăng cùng nhau), âm (giá trị này tăng khi giá trị kia giảm), null (không tương quan), tuyến tính, hàm mũ,...</p>
+    </div>
+    <div id="scatter-plot"></div>
+    <p class="libraries">Thư viện tham khảo: Plotly.js, Chart.js, D3.js</p>
+    <div class="container">
+        <h2>Line chart </h2>
+        <p>Biểu đồ minh họa những thay đổi theo thời gian. Trục x thường là một khoảng thời gian, trục y là số lượng. Các giá trị âm có thể được hiển thị bên dưới trục x. Line chart thường được sử dụng thường xuyên để hiển thị xu hướng và phân tích dữ liệu đã thay đổi như thế nào theo thời gian. Độ dốc của biểu đồ hướng lên cho biết nơi giá trị đã tăng và độ dốc hướng xuống cho biết nơi giá trị đã giảm. Tuy nhiên, tránh sử dụng nhiều hơn 3-4 dòng trên mỗi biểu đồ, vì điều này làm cho biểu đồ trở nên lộn xộn và khó đọc.</p>
+    </div>
+    <div id="line-chart"></div>
+    <div class="container">
+        <h2>Bar chart </h2>
+        <p>Được biết đến là Bar Graph hay Column Graph, đây là một trong những biểu đồ dễ đọc nhất, giúp so sánh các dữ liệu phân loại. Một trục chứa các danh mục, trục còn lại chứa các giá trị.</p>
+    </div>
+    <div id="bar-chart"></div>
+    <div class="container">
+        <h2>Pie chart </h2>
+        <p>Là một trong những biểu đồ phổ biến nhất thể hiện một phần trong toàn bộ dữ liệu. Pie chart thường được sử dụng theo tỷ lệ và tỷ lệ phần trăm giữa các danh mục, bằng cách chia một vòng tròn thành các phân đoạn theo tỷ lệ. Mỗi chiều dài cung tròn đại diện cho tỷ lệ của từng danh mục, tổng vòng tròn đại diện cho tổng dữ liệu, bằng 100%. Tuy nhiên, nhược điểm của pie chart là: Chúng không thể hiển thị nhiều hơn một vài giá trị, vì khi số lượng giá trị được hiển thị tăng lên, kích thước của mỗi phân đoạn trở nên nhỏ hơn. Điều này khiến chúng không phù hợp với lượng lớn dữ liệu.</p>
+    </div>
+    <div id="pie-chart"></div>
+    <div class="container">
+        <h2>Donut chart </h2>
+        <p>Là một biến thể của biểu đồ hình tròn (Pie chart), dạng này không khác gì biểu đồ tròn ngoại trừ phần rỗng bên trong. Donut pie chart giúp người đọc tập trung nhiều hơn vào chiều dài của các cung tròn thay vì chỉ tập trung vào so sánh tỷ lệ giữa các lát cắt như biểu đồ tròn. Ngoài ra, donut pie chart sẽ tiết kiệm không gian hơn biểu đồ tròn vì phần trống bên trong có thể được sử dụng để hiển thị thông tin bên trong nó.</p>
+    </div>
+    <div id="donut-chart"></div>
+    <div class="container">
+        <h2>Bubble chart </h2>
+        <p>Là một biến thể của biểu đồ phân tán, trong đó điểm dữ liệu được thay thế bằng bong bóng và một kích thước bổ sung của dữ liệu được thể hiện bằng kích cỡ bong bóng. Biểu đồ bong bóng sẽ có 3 giá trị là giá trị x, giá trị y và giá trị z (kích cỡ). Bubble charts được sử dụng để so sánh và hiển thị mối quan hệ giữa các vòng tròn được phân loại, bằng cách sử dụng vị trí và tỷ lệ. Ngoài ra, chúng còn được sử dụng để phân tích các mẫu và thể hiện các mối tương quan. Nhưng Bubble charts có nhược điểm là kích thước dữ kiện sẽ bị hạn chế, vì nếu có quá nhiều bong bóng sẽ làm cho biểu đồ trở nên khó đọc hơn</p>
+    </div>
+    <div id="bubble-chart"></div>
+    <script src="nhap.js"></script>
+</body>
+</html>
+
+

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quản lý giáo viên</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="sidebar">
+        <h2>Trang chủ</h2>
+        <ul>
+            <li><a href="#">Quản lý khoa</a></li>
+            <li><a href="#">Quản lý chuyên ngành</a></li>
+            <li><a href="#">Quản lý hệ đào tạo</a></li>
+            <li><a href="#">Quản lý niên khóa</a></li>
+            <li><a href="#">Quản lý lớp</a></li>
+            <li><a href="#">Quản lý giáo viên</a></li>
+            <li><a href="#">Quản lý hội đồng</a></li>
+            <li><a href="#">Quản lý sinh viên</a></li>
+            <li><a href="#">Danh sách đồ án</a></li>
+            <li><a href="#">Quản lý</a></li>
+        </ul>
+    </div>
+    <div class="header">
+        <h1>Quản lý giáo viên</h1>
+        <button class="add-new-btn">+ Thêm mới</button>
+    </div>
+    <div class="search-bar">
+        <select name="department" id="department">
+            <option value="">Chọn khoa</option>
+            <!-- Thêm các option tương ứng với khoa -->
+        </select>
+        <select name="major" id="major">
+            <option value="">Chọn chuyên ngành</option>
+            <!-- Thêm các option tương ứng với chuyên ngành -->
+        </select>
+        <button class="search-btn">Tìm kiếm</button>
+        <button class="create-btn">Tạo mới</button>
+    </div>
+    <div class="teacher-list">
+        <div class="teacher">
+            <div class="teacher-info">
+                <div class="teacher-image"><img src="a.jpg" alt="Teacher Image"></div>
+                <div class="teacher-details">
+                    <h3 class="teacher-name">Bùi Thị Như</h3>
+                    <p class="teacher-contact">0000000</p>
+                    <p class="teacher-contact">xxxx@gmail.com</p>
+                    <p class="teacher-contact">Nam Định</p>
+                    <p class="teacher-contact">Bưu chính</p>
+                    <p class="teacher-contact">xx/xx/xx</p>
+                    <p class="teacher-contact">CNTT. HTTT</p>
+                </div>
+            </div>
+            <div class="actions">
+                <button class="edit-btn">Sửa</button>
+                <button class="delete-btn">Xóa</button>
+            </div>
+        </div>
+        <div class="teacher">
+            <div class="teacher-info">
+                <div class="teacher-image"><img src="9.jpg" alt="Teacher Image"></div>
+                <div class="teacher-details">
+                    <h3 class="teacher-name">Trần Đức Toàn</h3>
+                    <p class="teacher-contact">11111111</p>
+                    <p class="teacher-contact">yyyyy@gmail.com</p>
+                    <p class="teacher-contact">Hà Nội</p>
+                    <p class="teacher-contact">Bưu chính</p>
+                    <p class="teacher-contact">yy/yy/yy</p>
+                    <p class="teacher-contact">CNTT. HTTT</p>
+                </div>
+            </div>
+            <div class="actions">
+                <button class="edit-btn">Sửa</button>
+                <button class="delete-btn">Xóa</button>
+            </div>
+        </div>
+        <!-- Thêm các giáo viên khác tương tự -->
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
